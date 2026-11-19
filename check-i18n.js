@@ -164,6 +164,25 @@ function buildKeyIndex(messages) {
   return index;
 }
 
+/** Pass to check that message names only use characters Chrome allows.
+ *
+ * Chrome's messages.json format permits A-Z, a-z, 0-9, "_" and "@" in message
+ * names. Firefox is more permissive, so keys which work there (e.g. plural
+ * separators such as ".") will break the Chrome build.
+ */
+function checkWellFormedKeys(_allLocales, _keyIndex, messages) {
+  for (const [locale, localeMessages] of messages) {
+    for (const key of Object.keys(localeMessages)) {
+      if (!/^[A-Za-z0-9_@]+$/.test(key)) {
+        errors.push(
+          `Key "${key}" in ${locale} contains characters Chrome does not allow in message names`,
+        );
+      }
+    }
+  }
+}
+passes.push(checkWellFormedKeys);
+
 /** Pass to check for keys which are missing in some locales. */
 function checkMissingLocales(allLocales, keyIndex) {
   for (const [key, locales] of keyIndex) {
@@ -355,7 +374,7 @@ const messages = readAllMessages(MESSAGES_PATH);
 const keyIndex = buildKeyIndex(messages);
 
 for (const pass of passes) {
-  pass([...messages.keys()], keyIndex);
+  pass([...messages.keys()], keyIndex, messages);
 }
 
 if (errors.length > 0) {
