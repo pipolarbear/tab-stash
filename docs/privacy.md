@@ -41,7 +41,7 @@ Here's why we need each of them:
   to be a picture of a kitten. Because who doesn't like kittens?)
 
 - **Store client-side data**: Tab Stash stores your preferences (such as whether
-  to open the stash in the sidebar or a new tab) in the browser's local and
+  to open the stash in the side panel or a new tab) in the browser's local and
   synced storage.
 
 - **Store unlimited amount of client-side data**: Tab Stash keeps a cache of

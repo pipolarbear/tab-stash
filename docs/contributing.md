@@ -164,7 +164,7 @@ the final Tab Stash extension. Let's go on a quick tour:
       keep things running smoothly.
 
    2. `src/stash-list/index.ts` is the main entry point for the Tab Stash UI.
-      (The same UI is used for all views---sidebar, full page, and popup.) The
+      (The same UI is used for all views---side panel, full page, and popup.) The
       UI itself is defined in the corresponding `src/stash-list/index.vue` file.
 
    3. Similarly, there are entry points for the options page, deleted-items
