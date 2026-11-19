@@ -33,7 +33,7 @@
     "message": "and"
   },
   "showInSidebar": {
-    "message": "show the stash in the sidebar"
+    "message": "show the stash in the side panel"
   },
   "showInTab": {
     "message": "show the stash in a tab"
@@ -45,10 +45,10 @@
     "message": "don't show the stash"
   },
   "whenStashingFromMenu": {
-    "message": "When stashing tabs from the context menu or address bar:"
+    "message": "When stashing tabs from the context menu or toolbar button:"
   },
   "showStashInSidebar": {
-    "message": "Show the stash in the sidebar"
+    "message": "Show the stash in the side panel"
   },
   "showStashInTab": {
     "message": "Show the stash in a tab"
@@ -699,7 +699,7 @@
     "message": "What would you like to see when you click the toolbar button?"
   },
   "setupShowSidebar": {
-    "message": "Show my stashed tabs in the sidebar"
+    "message": "Show my stashed tabs in the side panel"
   },
   "setupShowTab": {
     "message": "Show my stashed tabs in a tab"
@@ -717,7 +717,7 @@
     "message": "Choose a different \"Save...\" option to enable this"
   },
   "setupAddressBarContextStash": {
-    "message": "If you stash a tab using the address bar or context menu, what do you want to see?"
+    "message": "If you stash a tab using the toolbar button or context menu, what do you want to see?"
   },
   "setupAllSetNote": {
     "message": "You're all set! You can close this tab."
@@ -843,7 +843,7 @@
     "message": "Show Stashed Tabs"
   },
   "showStashedTabsInSidebarMenu": {
-    "message": "Show Stashed Tabs in Sidebar"
+    "message": "Show Stashed Tabs in Side Panel"
   },
   "stashTabsMenu": {
     "message": "Stash Tabs"

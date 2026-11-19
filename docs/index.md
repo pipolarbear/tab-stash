@@ -18,7 +18,7 @@ to keep track of yet another account.
 ## Features
 
 - Stash all your open tabs with the Tab Stash toolbar button (if configured), or
-  individual tabs with a button in the address bar
+  individual tabs from the page context menu
 - View your stash in the Chrome side panel, a popup, or a full-browser tab view
 - Restore individual tabs, or whole groups of tabs, with a single click
 - Search your stash with the quick-search bar

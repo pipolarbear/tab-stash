@@ -32,7 +32,7 @@ export const SYNC_DEF = {
   // Should we show advanced settings to the user?
   meta_show_advanced: {default: false, is: aBoolean},
 
-  // When the user stashes from the context menu or address bar button, do we
+  // When the user stashes from the context menu or toolbar button, do we
   // show the "sidepanel", "tab", or "none" (of the above)?
   open_stash_in: {
     default: undefined,
