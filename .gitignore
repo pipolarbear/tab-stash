@@ -12,6 +12,9 @@ dist
 dist-chrome
 coverage
 
+# Generated analysis output
+graphify-out
+
 # Release engineering
 releases/tab-stash-src-*
 releases/tab-stash-*.zip
