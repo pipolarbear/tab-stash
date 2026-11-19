@@ -3,7 +3,7 @@ import {resolve} from "path";
 import vue from "@vitejs/plugin-vue";
 import {type UserConfig} from "vite";
 
-const rel = (p: string) => resolve(__dirname, p);
+const rel = (p: string) => resolve(import.meta.dirname, p);
 
 const prod = process.env.NODE_ENV === "production";
 

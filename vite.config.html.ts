@@ -1,4 +1,4 @@
-import base from "./vite.config.base";
+import base from "./vite.config.base.ts";
 
 base.build!.rollupOptions!.input = {
   "deleted-items": "src/deleted-items.html",

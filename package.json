@@ -8,7 +8,7 @@
   "type": "module",
   "engines": {
     "npm": ">=9.0.0",
-    "node": ">=20.0.0"
+    "node": "^20.19.0 || >=22.12.0"
   },
   "devDependencies": {
     "@sinonjs/fake-timers": "^15.4",

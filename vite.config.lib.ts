@@ -1,4 +1,4 @@
-import base from "./vite.config.base";
+import base from "./vite.config.base.ts";
 
 // In library mode (enabled by setting .lib below), Vite will not replace
 // process.env, and so this will leak into code that runs in the browser.
